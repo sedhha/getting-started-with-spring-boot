@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SportsConfig {
-    @Bean("swimmingCoach")
+    @Bean("swimmingSpecialCoach")
     public Coach swimCoach() {
         return new SwimmingCoach();
     }
