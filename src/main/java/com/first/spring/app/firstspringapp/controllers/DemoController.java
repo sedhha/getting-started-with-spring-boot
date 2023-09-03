@@ -13,7 +13,7 @@ public class DemoController {
     private final Coach myCoach;
 
     @Autowired
-    public DemoController(@Qualifier("basketBallCoach") Coach coach) {
+    public DemoController(@Qualifier("swimmingCoach") Coach coach) {
         myCoach = coach;
     }
     @GetMapping("daily-workout")
